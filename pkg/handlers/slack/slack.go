@@ -23,8 +23,8 @@ import (
 
 	"github.com/slack-go/slack"
 
-	"github.com/bitnami-labs/kubewatch/config"
-	"github.com/bitnami-labs/kubewatch/pkg/event"
+	"github.com/pavangudiwada/kubewatch/config"
+	"github.com/pavangudiwada/kubewatch/pkg/event"
 )
 
 var slackColors = map[string]string{

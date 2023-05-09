@@ -1,4 +1,4 @@
-module github.com/bitnami-labs/kubewatch
+module github.com/pavangudiwada/kubewatch
 
 go 1.14
 

@@ -27,7 +27,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bitnami-labs/kubewatch/config"
+	"github.com/pavangudiwada/kubewatch/config"
 )
 
 func TestWebhookInit(t *testing.T) {

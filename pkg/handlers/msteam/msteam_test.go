@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bitnami-labs/kubewatch/config"
-	"github.com/bitnami-labs/kubewatch/pkg/event"
+	"github.com/pavangudiwada/kubewatch/config"
+	"github.com/pavangudiwada/kubewatch/pkg/event"
 )
 
 // Tests the Init() function

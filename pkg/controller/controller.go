@@ -26,10 +26,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bitnami-labs/kubewatch/config"
-	"github.com/bitnami-labs/kubewatch/pkg/event"
-	"github.com/bitnami-labs/kubewatch/pkg/handlers"
-	"github.com/bitnami-labs/kubewatch/pkg/utils"
+	"github.com/pavangudiwada/kubewatch/config"
+	"github.com/pavangudiwada/kubewatch/pkg/event"
+	"github.com/pavangudiwada/kubewatch/pkg/handlers"
+	"github.com/pavangudiwada/kubewatch/pkg/utils"
 	"github.com/sirupsen/logrus"
 
 	apps_v1 "k8s.io/api/apps/v1"

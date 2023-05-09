@@ -22,9 +22,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bitnami-labs/kubewatch/config"
-	"github.com/bitnami-labs/kubewatch/pkg/client"
-	"github.com/bitnami-labs/kubewatch/pkg/event"
+	"github.com/pavangudiwada/kubewatch/config"
+	"github.com/pavangudiwada/kubewatch/pkg/client"
+	"github.com/pavangudiwada/kubewatch/pkg/event"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

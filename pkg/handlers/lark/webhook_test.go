@@ -18,7 +18,7 @@ package lark
 
 import (
 	"fmt"
-	"github.com/bitnami-labs/kubewatch/config"
+	"github.com/pavangudiwada/kubewatch/config"
 	"reflect"
 	"testing"
 )
