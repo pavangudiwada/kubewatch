@@ -1,4 +1,4 @@
-module github.com/pavangudiwada/kubewatch
+module github.com/pavangudiwada/kubewatch/
 
 go 1.14
 

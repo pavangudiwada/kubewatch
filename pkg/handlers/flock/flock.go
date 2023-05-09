@@ -26,8 +26,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/pavangudiwada/kubewatchconfig"
-	"github.com/pavangudiwada/kubewatchpkg/event"
+	"github.com/pavangudiwada/kubewatch/config"
+	"github.com/pavangudiwada/kubewatch/pkg/event"
 )
 
 var flockColors = map[string]string{

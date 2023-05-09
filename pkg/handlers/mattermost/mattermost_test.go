@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pavangudiwada/kubewatchconfig"
+	"github.com/pavangudiwada/kubewatch/config"
 )
 
 func TestMattermostInit(t *testing.T) {

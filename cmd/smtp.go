@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/pavangudiwada/kubewatchpkg/handlers/smtp"
+	"github.com/pavangudiwada/kubewatch/pkg/handlers/smtp"
 	"github.com/spf13/cobra"
 )
 
