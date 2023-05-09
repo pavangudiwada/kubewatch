@@ -45,8 +45,8 @@ import (
 
 	"github.com/slack-go/slack"
 
-	"github.com/bitnami-labs/kubewatch/config"
-	"github.com/bitnami-labs/kubewatch/pkg/event"
+	"github.com/pavangudiwada/kubewatchconfig"
+	"github.com/pavangudiwada/kubewatchpkg/event"
 )
 
 var webhookErrMsg = `

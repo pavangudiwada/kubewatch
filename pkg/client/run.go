@@ -17,19 +17,19 @@ limitations under the License.
 package client
 
 import (
-	"github.com/bitnami-labs/kubewatch/config"
-	"github.com/bitnami-labs/kubewatch/pkg/controller"
-	"github.com/bitnami-labs/kubewatch/pkg/handlers"
-	"github.com/bitnami-labs/kubewatch/pkg/handlers/cloudevent"
-	"github.com/bitnami-labs/kubewatch/pkg/handlers/flock"
-	"github.com/bitnami-labs/kubewatch/pkg/handlers/hipchat"
-	"github.com/bitnami-labs/kubewatch/pkg/handlers/lark"
-	"github.com/bitnami-labs/kubewatch/pkg/handlers/mattermost"
-	"github.com/bitnami-labs/kubewatch/pkg/handlers/msteam"
-	"github.com/bitnami-labs/kubewatch/pkg/handlers/slack"
-	"github.com/bitnami-labs/kubewatch/pkg/handlers/slackwebhook"
-	"github.com/bitnami-labs/kubewatch/pkg/handlers/smtp"
-	"github.com/bitnami-labs/kubewatch/pkg/handlers/webhook"
+	"github.com/pavangudiwada/kubewatchconfig"
+	"github.com/pavangudiwada/kubewatchpkg/controller"
+	"github.com/pavangudiwada/kubewatchpkg/handlers"
+	"github.com/pavangudiwada/kubewatchpkg/handlers/cloudevent"
+	"github.com/pavangudiwada/kubewatchpkg/handlers/flock"
+	"github.com/pavangudiwada/kubewatchpkg/handlers/hipchat"
+	"github.com/pavangudiwada/kubewatchpkg/handlers/lark"
+	"github.com/pavangudiwada/kubewatchpkg/handlers/mattermost"
+	"github.com/pavangudiwada/kubewatchpkg/handlers/msteam"
+	"github.com/pavangudiwada/kubewatchpkg/handlers/slack"
+	"github.com/pavangudiwada/kubewatchpkg/handlers/slackwebhook"
+	"github.com/pavangudiwada/kubewatchpkg/handlers/smtp"
+	"github.com/pavangudiwada/kubewatchpkg/handlers/webhook"
 	"github.com/sirupsen/logrus"
 )
 

@@ -37,7 +37,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bitnami-labs/kubewatch/config"
+	"github.com/pavangudiwada/kubewatchconfig"
 	"github.com/mkmik/multierror"
 	"github.com/sirupsen/logrus"
 )
